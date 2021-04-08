@@ -71,7 +71,7 @@ public class PlayerTrigger : MonoBehaviour
                 Destroy(collision.gameObject);
                 stairTrigger.SetActive(true);
                 SceneManager.LoadScene(subScene, LoadSceneMode.Additive);
-                player.transform.position = new Vector2(-30f, -145.3f);
+                player.transform.position = new Vector2(-19.8f, -145.3f);
             } else {
                 SceneManager.UnloadSceneAsync(subScene);
                 player.transform.position = new Vector2(5.96f, -13.46f);

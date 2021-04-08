@@ -27,4 +27,8 @@ public class EscMenu : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("Main01");
     }
+
+    public void Exit() {
+        Application.Quit();
+    }
 }
